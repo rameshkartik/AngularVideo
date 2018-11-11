@@ -1,0 +1,51 @@
+{
+  "name": "angular-youtube-embed-test",
+  "version": "1.3.1",
+  "author": "Matthew Brandly",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brandly/angular-youtube-embed.git"
+  },
+  "homepage": "http://brandly.github.io/angular-youtube-embed/",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.20",
+    "@uirouter/dsr": "^1.0.2",
+    "@uirouter/sticky-states": "^1.5.0",
+    "@uirouter/visualizer": "^6.0.2",
+    "angular": "^1.7.5",
+    "oclazyload": "^1.1.0",
+    "angular-youtube-embed": "^1.3.1"
+	
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "express": "^4.8.2",
+    "gulp": "^3.6.2",
+    "gulp-header": "^1.2.2",
+    "gulp-karma": "0.0.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-util": "^3.0.0",
+    "karma": "^0.12.16",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-coffee-preprocessor": "^0.2.1",
+    "karma-jasmine": "^0.1.5",
+	"@uirouter/cypress-runner": "^1.0.9",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "shx": "^0.3.2",
+    "source-map-loader": "^0.2.4",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
